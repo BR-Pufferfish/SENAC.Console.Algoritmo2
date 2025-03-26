@@ -7,3 +7,4 @@ decimal preco = 10M;
 char letra = 'p';
 var nomeCompleto = "BR Puffer Fish";
 var altura = 180;
+Console.ReadKey();
