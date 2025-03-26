@@ -16,7 +16,14 @@ Console.WriteLine();
 Console.Write("Digite sua Idade: ");
 var linha = Console.ReadLine();
 idade = int .Parse(linha);
+//.Parse serve para extrair números de dentro de textos
 Console.WriteLine("Idade informada " + idade);
+if (idade < 18)
+    Console.WriteLine("Você não pode estar aqui!");
+
+
+
+
 
 Console.ReadKey();
 //o Console quase sempre é do tipo ReadLine (para ler a informações) ou do tipo WriteLine (para inserir informações)
